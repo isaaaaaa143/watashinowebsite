@@ -1,34 +1,48 @@
 /* style.css */
 
-/* Body styling (keeps everything centered) */
+/* Body: just gives background and padding */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #f0f4ff, #e2e8f0);
   color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  padding: 3rem;
 }
 
-/* Container styling (padding for space around content) */
+/* Container: centers text, adds spacing and style */
 .container {
   background: white;
-  padding: 3rem; /* More space inside the box */
+  padding: 2.5rem;
   border-radius: 1rem;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   max-width: 600px;
+  margin: 0 auto; /* centers the box horizontally */
+  text-align: center;
 }
 
-/* Add space between headers and paragraphs */
+/* Text spacing */
 h1 {
-  margin-bottom: 1rem; /* Space below the heading */
+  margin-bottom: 1rem;
 }
 
 p {
-  margin-top: 0.5rem; /* Space above the paragraph */
-  margin-bottom: 1.5rem; /* Space below the paragraph */
-  line-height: 1.5; /* Makes lines of text more spaced out */
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Button style for extra ✨ */
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3730a3;
 }
