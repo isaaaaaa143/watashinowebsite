@@ -4,14 +4,14 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #f0f4ff, #e2e8f0);
+  background: linear-gradient(to right, #370762, #550762);
   color: #333;
   padding: 3rem;
 }
 
 /* Container: centers text, adds spacing and style */
 .container {
-  background: white;
+  background: lavender;
   padding: 2.5rem;
   border-radius: 1rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -35,7 +35,7 @@ p {
 button {
   padding: 0.6rem 1.2rem;
   font-size: 1rem;
-  background-color: #4f46e5;
+  background-color: #cd53e1;
   color: white;
   border: none;
   border-radius: 0.5rem;
