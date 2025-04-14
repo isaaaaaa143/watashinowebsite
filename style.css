@@ -46,3 +46,13 @@ button {
 button:hover {
   background-color: #9c19d1;
 }
+
+window.onload = function () {
+  const button = document.getElementById("magicButton");
+
+  button.addEventListener("click", function () {
+    alert("You clicked it anyway... prepare for magic!");
+    document.body.style.backgroundColor = "#1a001a"; // deep dark purple
+    button.textContent = "Never gonna give you up, never gonna let you down, never gonna run arounddd and desert you~";
+  });
+};
